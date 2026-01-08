@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Display Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Smart Display Shop</h1>
+
+        <nav>
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="tv">TVs</button>
+            <button class="filter-btn" data-category="monitor">Monitors</button>
+            <button class="filter-btn" data-category="projector">Projectors</button>
+            <button class="filter-btn" data-category="screen">Smart Screens</button>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search products...">
+        </div>
+    </header>
+
+    <section class="products" id="productList">
+
+        <div class="product" data-category="tv">
+            <img src="images/tv1.jpg" alt="Smart TV">
+            <h3>Samsung 55” Smart TV</h3>
+        </div>
+
+        <div class="product" data-category="tv">
+            <img src="images/tv2.jpg" alt="LG TV">
+            <h3>LG OLED TV</h3>
+        </div>
+
+        <div class="product" data-category="monitor">
+            <img src="images/monitor1.jpg" alt="Dell Monitor">
+            <h3>Dell 24” Monitor</h3>
+        </div>
+
+        <div class="product" data-category="monitor">
+            <img src="images/monitor2.jpg" alt="HP Monitor">
+            <h3>HP LED Monitor</h3>
+        </div>
+
+        <div class="product" data-category="projector">
+            <img src="images/projector1.jpg" alt="Projector">
+            <h3>Epson Projector</h3>
+        </div>
+
+        <div class="product" data-category="projector">
+            <img src="images/projector2.jpg" alt="BenQ Projector">
+            <h3>BenQ Projector</h3>
+        </div>
+
+        <div class="product" data-category="screen">
+            <img src="images/screen1.jpg" alt="Smart Screen">
+            <h3>Interactive Smart Screen</h3>
+        </div>
+
+        <div class="product" data-category="screen">
+            <img src="images/screen2.jpg" alt="Touch Screen">
+            <h3>Touch Display Panel</h3>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
